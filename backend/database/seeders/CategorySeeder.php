@@ -23,7 +23,7 @@ class CategorySeeder extends Seeder
                 ]
             );
 
-            $fruit->addMediaFromUrl(asset('images/categories/fruits.png'))->toMediaCollection('primary');
+            // $fruit->addMediaFromUrl(asset('images/categories/fruits.png'))->toMediaCollection('primary');
         });
 
         DB::transaction(function () {
@@ -34,7 +34,7 @@ class CategorySeeder extends Seeder
                 ]
             );
 
-            $vegetable->addMediaFromUrl(asset('images/categories/vegetables.png'))->toMediaCollection('primary');
+            // $vegetable->addMediaFromUrl(asset('images/categories/vegetables.png'))->toMediaCollection('primary');
         });
 
         DB::transaction(function () {
@@ -45,7 +45,7 @@ class CategorySeeder extends Seeder
                 ]
             );
 
-            $grocery->addMediaFromUrl(asset('images/categories/groceries.png'))->toMediaCollection('primary');
+            // $grocery->addMediaFromUrl(asset('images/categories/groceries.png'))->toMediaCollection('primary');
         });
 
         DB::transaction(function () {
@@ -56,7 +56,7 @@ class CategorySeeder extends Seeder
                 ]
             );
 
-            $dairy->addMediaFromUrl(asset('images/categories/dairy.png'))->toMediaCollection('primary');
+            // $dairy->addMediaFromUrl(asset('images/categories/dairy.png'))->toMediaCollection('primary');
         });
 
         DB::transaction(function () {
@@ -67,7 +67,7 @@ class CategorySeeder extends Seeder
                 ]
             );
 
-            $bakery->addMediaFromUrl(asset('images/categories/bakery.png'))->toMediaCollection('primary');
+            // $bakery->addMediaFromUrl(asset('images/categories/bakery.png'))->toMediaCollection('primary');
         });
 
         DB::transaction(function () {
@@ -78,7 +78,7 @@ class CategorySeeder extends Seeder
                 ]
             );
 
-            $fish->addMediaFromUrl(asset('images/categories/fish.png'))->toMediaCollection('primary');
+            // $fish->addMediaFromUrl(asset('images/categories/fish.png'))->toMediaCollection('primary');
         });
 
         DB::transaction(function () {
@@ -89,7 +89,7 @@ class CategorySeeder extends Seeder
                 ]
             );
 
-            $meat->addMediaFromUrl(asset('images/categories/meat.png'))->toMediaCollection('primary');
+            // $meat->addMediaFromUrl(asset('images/categories/meat.png'))->toMediaCollection('primary');
         });
 
         DB::transaction(function () {
@@ -100,7 +100,7 @@ class CategorySeeder extends Seeder
                 ]
             );
 
-            $beverage->addMediaFromUrl(asset('images/categories/beverage.png'))->toMediaCollection('primary');
+            // $beverage->addMediaFromUrl(asset('images/categories/beverage.png'))->toMediaCollection('primary');
         });
     }
 }
